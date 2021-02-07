@@ -3,11 +3,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using SallesWebMvc.Data;
+using SalesWebMvc.Data;
 
-namespace SallesWebMvc.Migrations
+namespace SalesWebMvc.Migrations
 {
-    [DbContext(typeof(SallesWebMvcContext))]
+    [DbContext(typeof(SalesWebMvcContext))]
     [Migration("20210205224956_Initial")]
     partial class Initial
     {
